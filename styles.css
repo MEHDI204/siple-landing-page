@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+body{
+    background-image: url("bg-header-desktop.png");
+    background-size: 100% 50vh;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Bai Jamjuree', sans-serif;
+
+}
+.logo{
+    width: 120px;
+    margin: 100px auto 0;
+}
+
+.title1{
+    text-align: center;
+    color: hsl(210, 10%, 33%);
+    font-weight: 600;
+    font-size: 2.6em;
+    margin-top: 50px;
+    margin-bottom: 18px;
+}
+.description1{
+    text-align: center;
+    color: hsl(201, 11%, 66%);
+    font-weight: 400;
+    font-size: 1.2em;
+    margin-top: 0;
+    line-height: 1.5em;
+}
+.btn{
+    display: flex;
+    align-self: center;
+    width: 35%;
+    gap: 20px;
+    margin-top: 40px;
+    margin-bottom: 120px;
+}
+.ios{
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: white;
+    height: 50px;
+    width: 50%;
+    background-color: hsl(171, 66%, 44%);
+    font-size: 20px;
+    padding: 10px 20px;
+}
+.ios:hover{
+    background-color: #5dccbb;
+    cursor: pointer;
+}
+.mac{
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: white;
+    height: 50px;
+    width: 50%;
+    background-color: hsl(233, 100%, 69%);
+    font-size: 20px;
+    padding: 10px 20px;
+}
+.mac:hover{
+    background-color: #8795fe;
+    cursor: pointer;
+}
+.title2{
+    text-align: center;
+    color: hsl(210, 10%, 33%);
+    font-weight: 600;
+    font-size: 2em;
+}
+.description2{
+    text-align: center;
+    color: hsl(201, 11%, 66%);
+    font-weight: 400;
+    font-size: 1em;
+    margin-top: 0;
+    line-height: 1.5em;
+    margin-bottom: 78px;
+}
+.container{
+    display: flex;
+    gap: 105px;
+    height: 300px;
+    margin-bottom: 300px;
+}
+.container img{
+    margin-left: -38px;
+    height: 540px;
+}
+.text{
+    margin-top: 115px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.container .text h1{
+    font-size: 1.5em;
+}
+.container .text .quick{
+    row-gap: 1.5em;
+}
+.container .text .quick p{
+    line-height: 1.5em;
+}
+.container .text .icloud{
+    row-gap: 1.5em;
+}
+.container .text .icloud p{
+    line-height: 1.5em;
+}
+.container .text .complete{
+    row-gap: 1.5em;
+}
+.container .text .complete p{
+    line-height: 1.5em;
+}
+.container .text h1{
+    color: hsl(210, 10%, 33%);
+}
+.container .text p{
+    color: hsl(201, 11%, 66%);
+}
+.title3{
+    text-align: center;
+    color: hsl(210, 10%, 33%);
+    font-weight: 600;
+    font-size: 2.6em;
+    margin-top: 50px;
+    margin-bottom: 18px;
+}
+.description3{
+    text-align: center;
+    color: hsl(201, 11%, 66%);
+    font-weight: 400;
+    font-size: 1em;
+    margin-top: 0;
+    line-height: 1.5em;
+}
+.image-devices{
+    height: 550px;
+    width: 865px;
+    align-self: center;
+    margin-top: 70px;
+}
+.title4{
+    text-align: center;
+    color: hsl(210, 10%, 33%);
+    font-weight: 600;
+    font-size: 2.6em;
+    margin-top: 50px;
+    margin-bottom: 18px;
+}
+.description4{
+    text-align: center;
+    color: hsl(201, 11%, 66%);
+    font-weight: 400;
+    font-size: 1em;
+    margin-top: 0;
+    line-height: 1.5em;
+}
+.container2{
+    display: flex;
+    align-self: center;
+    gap: 50px;
+    height: 300px;
+    margin-top: 0;
+    margin-bottom: 120px;
+}
+.container2 img{
+    align-self: center;
+}
+.container2 .text1{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.container2 .text1 img{
+    margin-bottom: 10px;
+}
+.container2 .text2{
+
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.container2 .text3{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.container2 h1{
+    color: hsl(210, 10%, 33%);
+}
+.container2 p{
+    color: hsl(201, 11%, 66%)
+}
+.container3{
+    display: flex;
+    align-self: center;
+    gap: 100px;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.title5{
+    text-align: center;
+    color: hsl(210, 10%, 33%);
+    font-weight: 600;
+    font-size: 2.6em;
+    margin-top: 50px;
+    margin-bottom: 18px;
+}
+.description5{
+    text-align: center;
+    color: hsl(201, 11%, 66%);
+    font-weight: 400;
+    font-size: 1em;
+    margin-top: 0;
+    line-height: 1.5em;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    background-color: hsl(220, 16%, 96%);
+    height: 135px;
+    width: 100%;
+    justify-content: space-around;
+    color: hsl(201, 11%, 66%);
+}
+.first{
+    width: 50%;
+    display: flex;
+    align-self: center;
+    gap: 130px;
+}
+footer .first img{
+    margin-top: 10px;
+}
+.second{
+    display: flex;
+    align-self: center;
+    gap: 20px;
+}
+footer p{
+    width: 120px;
+}
+footer p:hover{
+    color: hsl(171, 66%, 44%);
+    cursor: pointer;}
